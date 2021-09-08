@@ -1,0 +1,269 @@
+:root {
+  --nav-height: 4rem;
+  --transition: 250ms ease-in-out;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: silver;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: var(--nav-height);
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px 35px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  letter-spacing: 1.5px;
+  line-height: 26px;
+}
+
+/* head shot photo in nav bar */
+header img {
+  border: 1px solid black;
+  box-shadow: -1px 1px 2px 1px black;
+  border-radius: 200px;
+  height: 50px;
+  width: 50px;
+  float: left;
+  padding: 2px;
+  place-content: center;
+}
+/* Header including nav and h1 */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  z-index: 10000;
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
+  box-shadow: -1px 1px 5px 1px rgba(136, 86, 65, 0.68);
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* My h1 tag listing name */
+.myName {
+  margin-left: 25px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.navImage {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation bar content */
+.navBar li {
+  padding: 5px;
+}
+
+.navBar a,
+h1 {
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 2px 5px 2px 5px;
+  font-size: 16px;
+  color: black;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* navBar hover */
+.navBar a:hover {
+  color: silver;
+  transition: var(--transition);
+}
+
+/* First article including the 'about me' */
+.flexArticle {
+  display: flex;
+  margin-top: 45px;
+}
+
+/* articles h2 */
+.rowTitle {
+  font-size: 40px;
+  text-align: right;
+  border-right: 2px solid black;
+  padding: 0 20px 0 0;
+  width: 250px;
+}
+/* info in articles */
+.rowInfo {
+  padding: 0 0 0 20px;
+  margin-bottom: 0;
+  width: 800px;
+  align-items: center;
+}
+
+.firstRow {
+  margin-top: 0 !important;
+}
+
+.lastRow {
+  margin-bottom: 0 !important;
+}
+/* second and third row in work section */
+.flexRow {
+  display: flex;
+  justify-content: space-around;
+  justify-self: center;
+  margin: 15px 0;
+}
+
+/* applies to all 3 cards */
+.card {
+  border: 4px solid black;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 35px;
+}
+
+.foot a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* foot links hover */
+.foot a:hover {
+  color: whitesmoke;
+  transition: var(--transition);
+}
+
+.freeCard {
+  background-image: url(../images/dog-footprint-wallpaper.png);
+  color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: 850px 500px;
+  height: 500px;
+  width: 850px;
+}
+
+/* freeCard hover */
+.freeCard:hover {
+  background-color: silver;
+  opacity: 0.75;
+  transition: var(--transition);
+}
+
+.cardTwo {
+  background-image: url(../images/mainHeader.jpg);
+  color: whitesmoke;
+  height: 200px;
+  width: 425px;
+  margin-right: 10px;
+}
+
+/* cardtwo hover */
+.cardTwo:hover {
+  background-color: silver;
+  opacity: 0.75;
+  transition: var(--transition);
+}
+
+.cardThree {
+  background-image: url(../images/weatherImage.jpeg);
+  color: whitesmoke;
+  height: 200px;
+  width: 425px;
+  margin-left: 10px;
+}
+
+/* cardThree hover */
+.cardThree:hover {
+  background-color: silver;
+  opacity: 0.75;
+  transition: var(--transition);
+}
+
+.cardFour {
+  background-image: url(https://wallpaperaccess.com/full/5651990.jpg);
+  color: whitesmoke;
+  height: 200px;
+  width: 425px;
+  margin-right: 10px;
+}
+
+/* cardFour hover */
+.cardFour:hover {
+  background-color: silver;
+  opacity: 0.75;
+  transition: var(--transition);
+}
+
+.cardFive {
+  background-image: url(../images/SchedulerImage.png);
+  color: whitesmoke;
+  height: 200px;
+  width: 425px;
+  margin-left: 10px;
+}
+
+/* cardFive hover */
+.cardFive:hover {
+  background-color: silver;
+  opacity: 0.75;
+  transition: var(--transition);
+}
+
+/* no decoration on links */
+.decorationNone {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* no decoration to change color (on hover) */
+.decorationNone:hover {
+  text-decoration: underline;
+}
+
+/* Accessibility Media Querries */
+@media screen (max-width: 992px) {
+  body {
+    width: 50%;
+  }
+}
+@media screen (max-width:768px) {
+  body {
+    width: 100%
+  }
+}
