@@ -27,7 +27,7 @@ class CarouselImages extends Component {
                         <div  className={classes.h2}> 
                         <h1> I love creating</h1>
                         <h1>THINGS!!</h1>
-                        <a href="https://github.com/mittalsam98" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
+                        <a href="https://github.com/mgsteinmetz" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
                         </div>
                     </div>
                     {/* <div className={classes.image_container}>
