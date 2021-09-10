@@ -11,7 +11,7 @@ class Education extends Component {
         return (
                 <div className={classes.box} id="education">
                     <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2' animateOnce="true" initiallyVisible ={true}>
-                     <span  className={classes.head}>MY JOURNEY</span>
+                    <span  className={classes.head}>MY JOURNEY SO FAR</span>
                     <section className={classes.container}>
                         <div className={classes.container_content}>
                             <div className={classes.row}>
@@ -23,8 +23,8 @@ class Education extends Component {
                                                     <FaSchool />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Higher Education  <span>2014-2016</span></h2>
-                                                <p>I have completed my higher education from HKIS with major subjects as Physics,Chemistry & Maths with 85 merit in CBSE board. </p>
+                                                <h2 >Higher Education  <span>2021-2021</span></h2>
+                                                <p>I will soon be completing my studying at The University of Minnesota Coding Bootcamps for Full-Stack Web Development! </p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
@@ -34,8 +34,8 @@ class Education extends Component {
                                                 <MdSchool />
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Undergraduation at SLIET <span>2017-Present</span></h2>
-                                                <p>I'm currently completing my undergraduation in CSE (Computer Science and Engineering) from <a href='http://sliet.ac.in/'>SLIET</a>. </p>
+                                                <h2 >High School Diploma <span>2019</span></h2>
+                                                <p>I completed my schooling, and graduated from St.Croix Central High School in May of 2019!</p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
@@ -45,8 +45,8 @@ class Education extends Component {
                                                     <MdWork />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Internship</h2>
-                                                <p>Completed one month Internship in React Js with Internity Foundation</p>
+                                                <h2 >To be determined...!!!</h2>
+                                                <p>Ready to do great things with my future employer!</p>
                                                 </div>
                                                 <div className={classes.timeline_entry_inner}><div  className={classes.timeline_icon_3||classes.color_none}></div></div>
                                             </article>
