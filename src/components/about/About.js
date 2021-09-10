@@ -11,9 +11,8 @@ class About extends Component {
                     <span  className={classes.head}>ABOUT ME</span>
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
-                        <p> My name is SACHIN MITTAL and I am currently pursuing my degree in Bachelor of Technology in Computer Science and Engineering from Sant Longowal Institute of Engineering and Technology. I want to be a developer as I am interested in developing new things which excite me a lot. :)  </p>
-                         <p className={classes.br}>I love exploring new technologies and being a practitioner, I like to stay on top of latest trends.
- </p>
+                        <p> Hi! I am Mike Steinmetz, and I am an entry level Full-Stack developer. I am currently studying at The University of Minnesota Coding Bootcamps, in hopes to recieve my certificate of completion!! I really enjoy programming because every day can be a new challenge, and you are always learning new skills as you move forward! :)  </p>
+                        <p className={classes.br}>I love exploring new technologies and being a practitioner, I also like to stay on top of latest trends.</p>
                     </div>
                 </ScrollAnimation>
             </div>
