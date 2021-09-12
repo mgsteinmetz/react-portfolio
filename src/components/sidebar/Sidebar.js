@@ -15,8 +15,8 @@ class Sidebar extends Component {
 
                 <ul className="sidebar-nav">
                     <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About Me</Link></li>
-                    <li className="sidebar-nav-items"><Link smooth to="/#education" className="links" >Portfolio</Link></li>
-                    <li className="sidebar-nav-items"><Link smooth to="/#interest" className="links">Interests</Link></li>
+                    <li className="sidebar-nav-items"><Link smooth to="/#education" className="links" >Education</Link></li>
+                    <li className="sidebar-nav-items"><Link smooth to="/#interest" className="links">Portfolio</Link></li>
                 </ul>
     
                 <div className="flip-card-back">
