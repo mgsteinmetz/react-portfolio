@@ -12,7 +12,7 @@ class About extends Component {
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
                         <p> Hi! I am Mike Steinmetz, and I am an entry level Full-Stack developer. I am currently studying at The University of Minnesota Coding Bootcamps, in hopes to recieve my certificate of completion!! I really enjoy programming because every day can be a new challenge, and you are always learning new skills as you move forward! :)  </p>
-                        <p className={classes.br}>I love exploring new technologies and being a practitioner, I also like to stay on top of latest trends.</p>
+                        <p className={classes.br}>Outside of being at my computer creating things, I love to do outdoor activities! I really enjoy going fishing, hunting, and exploring. Some of my other hobbies include watching, and somtimes playing sports, as well as playing video games! And when I'm not doing any of the things listed above, you will most likely find me watching shows on netflix or watching youtube videos.</p>
                     </div>
                 </ScrollAnimation>
             </div>
