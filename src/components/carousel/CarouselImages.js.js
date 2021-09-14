@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "animate.css/animate.min.css"; 
 import {GoProject} from 'react-icons/go'
 import Hello from '../images/Hello.jpg'
-import laptop1 from '../images/laptop1.jpg'
+import laptop from '../images/laptop-coffee.jpg'
 
 class CarouselImages extends Component {
     render(){
@@ -20,11 +20,11 @@ class CarouselImages extends Component {
                         </div>
                     </div>
                     <div className={classes.image_container}>
-                        <img className={classes.image} src={laptop1} alt="myImage"/>
+                        <img className={classes.image} src={laptop} alt="myImage"/>
                         <div  className={classes.h2}> 
                         <h1>I love to code!</h1>
-                        <h1> ...And watch youtube</h1>
-                        <a href="https://github.com/mgsteinmetz" rel="opener noreferrer" target="blank">VIEW PROJECTS   <GoProject/></a>
+                        <h1> ....And watch youtube</h1>
+                        <a href="https://github.com/mgsteinmetz" rel="opener noreferrer" target="blank">VIEW MY GITHUB   <GoProject/></a>
                         </div>
                     </div>
                     {/* <div className={classes.image_container}>
