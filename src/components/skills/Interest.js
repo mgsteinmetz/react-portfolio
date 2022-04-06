@@ -40,13 +40,13 @@ class Interest extends Component {
             </ScrollAnimation>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.other}>
-                <h3>Work Day Scheduler</h3>
-                <ul style={{ textAlign:'match-parent'}}>A planner application built using:
-                  <li>Bootstrap for CSS styling.</li>
-                  <li>Luxon for current date and time.</li>
-                  <li>Raw Javascript.</li>
+                <h3>KiddoCarLine</h3>
+                <ul style={{ textAlign:'match-parent'}}>An application built to assist teachers keep track of students using:
+                  <li>React</li>
+                  <li>Database Storage</li>
+                  <li>JWT Authentication</li>
                 </ul>
-                <a href="https://mgsteinmetz.github.io/work-day-scheduler" target="blank">View App!<GoProject/></a>
+                <a href="https://mgsteinmetz.github.io/kiddocarline" target="blank">View App!<GoProject/></a>
               </div>
             </ScrollAnimation>
           </div>
