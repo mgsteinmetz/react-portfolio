@@ -17,17 +17,6 @@ class Education extends Component {
                             <div className={classes.row}>
                                 <div className={classes.row_md_12}>
                                     <div className={classes.timeline_centered}>
-                                       <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
-                                            <article className={classes.timeline_entry}>
-                                                <div className={classes.timeline_icon} >
-                                                <MdSchool />
-                                                </div>
-                                                <div className={classes.label}>
-                                                <h2 >High School Diploma <span>2019</span></h2>
-                                                <p>I completed my schooling, and graduated from St.Croix Central High School in May of 2019!</p>
-                                                </div>
-                                            </article>
-                                        </ScrollAnimation>
                                         <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                             <article className={classes.timeline_entry}>
                                                 <div className={`${classes.timeline_icon} ${classes.timeline_icon_2}`} >
@@ -38,6 +27,17 @@ class Education extends Component {
                                                 <p>I recieved my certificate from The University of Minnesota Coding Bootcamps for Full-Stack Web Development in October of 2021! </p>
                                                 </div>
                                             </article>
+                                        </ScrollAnimation>
+                                        <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
+                                                <article className={classes.timeline_entry}>
+                                                    <div className={classes.timeline_icon} >
+                                                    <MdSchool />
+                                                    </div>
+                                                    <div className={classes.label}>
+                                                    <h2 >High School Diploma <span>2019</span></h2>
+                                                    <p>I completed my schooling, and graduated from St.Croix Central High School in May of 2019!</p>
+                                                    </div>
+                                                </article>
                                         </ScrollAnimation>
                                         {/* <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                             <article>
